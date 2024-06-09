@@ -1,0 +1,32 @@
+.tasks
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    gap: 20px;
+}
+.tasks div
+{
+    background-color: rgb(100, 200, 200);
+    padding: 10px;
+    display: flex;
+    color: black;
+    margin: 0px;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 10px;
+}
+.delete-btn
+{
+    padding: 10px;
+    margin: auto 0px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: none;
+    background-color: transparent;
+}
+.delete-btn:hover
+{
+    transition: 0.2s ease-in-out;
+    background-color: white;
+}
